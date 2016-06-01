@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<EditText  
+    android:id="@+id/ori"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello_world01"
+    />
+<EditText 
+    android:id="@+id/navigation"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/ori"
+    android:text="@string/hello_world02"/>
+<EditText  
+    android:id="@+id/touch"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello_world03"
+    />
+<EditText  
+    android:id="@+id/mnc"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello_world04"
+    android:phoneNumber="true"
+    />
+
+<Button
+	android:id="@+id/bn"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center_vertical"
+    android:layout_marginLeft="45pt"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="15pt"
+    android:text="获取手机信息"
+	/>
+</LinearLayout>

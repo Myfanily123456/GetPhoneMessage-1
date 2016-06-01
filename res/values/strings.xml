@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GetPhoneMessage</string>
+    <string name="hello_world01">显示屏幕方向</string>
+    <string name="hello_world02">显示手机方向控制设备</string>
+    <string name="hello_world03">显示触摸屏状态</string>
+    <string name="hello_world04">显示移动网络代号</string>
+    <string name="action_settings">Settings</string>
+    
+
+</resources>
